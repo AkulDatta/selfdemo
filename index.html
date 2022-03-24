@@ -1,9 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-    </head>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELF</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+    <div id="wrapper">
+        <nav class="navbar navbar-default  navbar-fixed-top" role="navigation" style="background: #252a32;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">This class toggles navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand">
+                        <a href="#">SELF Home</a>
+                    </div>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse" style="float:right;">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><span class="entypo-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="entypo-login"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <aside class='sidebar-kiri'>
         <div class='main-nav'>
           <ul>
@@ -11,21 +45,17 @@
               <a>Menu</a>
               <span class='entypo-list'></span>
             </li>
+            <li class='logo'>
+                <a>Menu</a>
+                <span class='entypo-list'></span>
+            </li>
             <li>
               <a>Home</a>
               <span class='entypo-home'></span>
             </li>
             <li>
-              <a>Features</a>
-              <span class='entypo-gauge'></span>
-            </li>
-            <li>
               <a>Analytics</a>
               <span class='entypo-chart-line'></span>
-            </li>
-            <li>
-              <a>Premium</a>
-              <span class='entypo-rocket'></span>
             </li>
             <li>
               <a>Account</a>
@@ -38,7 +68,162 @@
           </ul>
         </div>
       </aside>
-      <div class='content'>
-      fgdfg fgd gfds fg<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f<br/> sfg sg d d gs f</div>
       
-</html>
+      
+    
+    
+     <script>
+    /*Menu-toggle*/
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+        $("#B").toggleClass("active");
+        $("#A").toggleClass("active");
+    });
+    </script>
+<div class="breaker">
+<div class="container py-5">  
+    <!-- First Row [Prosucts]-->
+    <h2 class="font-weight-bold mb-2">Recommended Starter Apps</h2>  
+    <div class="row pb-5 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/analytics.png" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Advanced Analytics</p>
+            <h5 class="text-dark">Analytics made easy! Includes <br> an improved custom dashboard <br> and effortless management.</h5>
+            <ul class="list-inline small">
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star-outlined"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/5dbc9771997f98ae0d27a80c_58378553_660355744397352_6253841432335876096_n.png" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Website Setup</p>
+            <h5 class="text-dark">Easy, one-click website setup, <br> hosted locally on this machine.</h5>
+            <ul class="list-inline small">
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star-outlined"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/githublogo.png" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Github Integration</p>
+            <h5 class="text-dark">Run GitHub programs on your <br> machine with this app!</h5>
+            <ul class="list-inline small">
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/fk.jpeg" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Storage Management</p>
+            <h5 class="text-dark">This cleaner will scan and delete junk files stored so that it can free up RAM, free up space and increase memory performance.</h5>
+            <ul class="list-inline small">
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star-outlined"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <h2 class="font-weight-bold mb-2">Apps of the Day</h2>  
+    <div class="row pb-5 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/analytics.png" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Advanced Analytics</p>
+            <h5 class="text-dark">Analytics made easy! Includes <br> an improved custom dashboard <br> and effortless management.</h5>
+            <ul class="list-inline small">
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star-outlined"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/5dbc9771997f98ae0d27a80c_58378553_660355744397352_6253841432335876096_n.png" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Website Setup</p>
+            <h5 class="text-dark">Easy, one-click website setup, <br> hosted locally on this machine.</h5>
+            <ul class="list-inline small">
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star-outlined"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/githublogo.png" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Github Integration</p>
+            <h5 class="text-dark">Run GitHub programs on your <br> machine with this app!</h5>
+            <ul class="list-inline small">
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+              <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-4"><img src="assets/fk.jpeg" alt="" class="img-fluid d-block mx-auto mb-3">
+            <p>Storage Management</p>
+            <h5 class="text-dark">This cleaner will scan and delete junk files stored so that it can free up RAM, free up space and increase memory performance.</h5>
+            <ul class="list-inline small">
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star"></i></li>
+                <li class="list-inline-item m-0"><i class="entypo-star-outlined"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
